@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-
+import Loan from '../media/loan.jpg'
 const Page1 = () => {
   const navigate = useNavigate();
   const nav = ()=>{
@@ -16,7 +16,7 @@ const Page1 = () => {
     <button onClick={nav}>Complete 3 easy steps</button>
     </div>
     <div className='box-1'>
-        <img src='https://www.investopedia.com/thmb/5oPGxn23VPptX9PRbnff8Fp5spQ=/5894x3901/filters:fill(auto,1)/loan-text-written-on-wooden-block-with-stacked-coins-955530262-08c17c0eb3634e6daf780bdd9ac1d194.jpg' style={{"width":"40rem","height":"40rem","borderRadius":"4rem","marginTop":"4rem","marginLeft":"5rem"}} alt='img' />
+        <img src={Loan} style={{"width":"40rem","height":"40rem","borderRadius":"4rem","marginTop":"4rem","marginLeft":"5rem"}} alt='img' />
     </div>
     </div>
   )
