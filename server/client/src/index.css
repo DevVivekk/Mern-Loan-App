@@ -6,10 +6,14 @@
 html{
   font-size: 62.5%;
 }
-
+@media screen and (max-width:550px) {
+  html{
+    font-size: 40%;
+  }
+}
 .homepage{
   width: 100vw;
-  height: 100vh;
+  height: auto;
   min-width: 63rem;
   display: flex;
   flex-direction: row;
@@ -66,8 +70,8 @@ background-image: linear-gradient(120deg, aliceblue, whitesmoke);
 /* Css of step1 */
 .step1{
   width: 100vw;
-  height: 100vh;
-  min-width:63rem;
+  height: auto;
+  min-width:60rem;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -78,7 +82,7 @@ background-image: linear-gradient(120deg, aliceblue, whitesmoke);
   height: auto;
   align-items: center;
   padding-top: 5rem;
-  padding-left: 10rem;
+  padding-left: 5rem;
   box-sizing: border-box;
 }
 input{
